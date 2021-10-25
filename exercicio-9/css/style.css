@@ -1,0 +1,22 @@
+.segundoh1{
+    font-family:Monospace,sans-serife;
+}
+
+main{
+    background-image: url("../img/fundo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article1{
+    background-color:rgb(255, 194, 246);
+}
+
+.article2{
+    background-color: rgb(248, 193, 242);
+}
+
+article p{
+    color:rgb(110, 60, 60);
+    text-align: center;
+}
