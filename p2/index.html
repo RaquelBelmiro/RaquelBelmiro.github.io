@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Hipermidia-P2</title>
+
+</head>
+
+<body>
+
+    <h2>Locação de Carros</h2>
+    <div class="container">
+        <form>
+
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" required>
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="text" name="tel" required>
+            <label for="cidadeRetirada">Cidade de Retirada:</label>
+            <input id="cidadeRetirada" type="text" name="cidadeRetirada" required>
+            <label for="cidadeEntrega">Cidade de Entrega:</label>
+            <input id="cidadeEntrega" type="text" name="cidadeEntrega" required>
+            
+            <label for="dataRetirada">Data da Retirada:</label>
+            <input id="dataRetirada" type="date" name="dataRetirada">
+
+            <label for="dataDevolucao">Data de Devolução:</label>
+            <input id="dataDevolucao" type="date" name="dataDevolucao">
+
+            <label for="carro">Tipo de Carro:</label>
+            <select id="carro" name="carro">
+                <option>Básico</option>
+                <option>Básico com ar</option>
+                <option>Executivo</option>
+            </select>
+
+
+            <button id="btnAlocar" type="submit" onclick="locacao()">Alocar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
